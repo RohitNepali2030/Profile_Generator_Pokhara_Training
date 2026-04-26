@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Student Profile Card – view student details and discover fun education facts." />
+  <title>Student Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="card" id="profile-card">
+    <!-- Header -->
+    <div class="card-header">
+      <img
+        class="profile-img"
+        
+        alt="Student profile photo"
+        id="profile-photo"
+      />
+      <h1 class="student-name" id="student-name"></h1>
+      <p class="student-tagline" id="student-tagline"></p>
+    </div>
+
+    <!-- Info Fields -->
+    <div class="card-body">
+      <div class="info-row">
+        <span class="info-label">Roll No.</span>
+        <span class="info-value" id="info-roll"></span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Department</span>
+        <span class="info-value" id="info-department"></span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Year</span>
+        <span class="info-value" id="info-year"></span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Email</span>
+        <span class="info-value" id="info-email"></span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">GPA</span>
+        <span class="info-value"><span class="gpa-badge" id="info-gpa"></span></span>
+      </div>
+    </div>
+
+    <!-- Random Fact -->
+    <div class="fact-section">
+      <button class="fact-btn" id="fact-btn">Show Motivational Quote</button>
+      <div class="fact-box placeholder visible" id="fact-box">Click the button to see one of your quotes.</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
