@@ -4,7 +4,7 @@
 	// Example: 'profilepic.jpg' or 'myphoto.png'
 	
     
-    const profileImageFile = 'userprofilepic.jpg';
+    const profileImageFile = 'img/122 (2).png';
 	
     
     
@@ -15,13 +15,13 @@
 	// ======================= EDIT HERE: PERSONAL INFO =======================
 	// Update your name, id/roll, department, year, email, and gpa below.
 	const myInfo = {
-		name: 'Your Name',
-		tagline: 'Your Tagline',
-		roll: 'Your ID / Roll Number',
-		department: 'Your Department',
-		year: 'Your Year',
-		email: 'your.email@example.com',
-		gpa: '0.00'
+		name: 'ROHIT',
+		tagline: 'Cyber',
+		roll: '21/22070144',
+		department: 'Computer Science and Engineering',
+		year: '2022',
+		email: 'rohitnepali78@gmail.com',
+		gpa: '3.2'
 	};
 	// ===================== END EDIT: PERSONAL INFO =========================
 
